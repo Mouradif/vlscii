@@ -1,0 +1,19 @@
+[package]
+name = "vlscii"
+version = "0.0.1-preview"
+edition = "2024"
+build = "build.rs"
+description = "True Color ANSI terminal video player — zero flicker, ASCII / braille / half-block rendering"
+license = "MIT"
+
+[[bin]]
+name = "vlscii"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+libc = "0.2"
+
+[profile.release]
+opt-level = 3
+lto = true
