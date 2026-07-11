@@ -4,6 +4,27 @@
 
 `vlscii` plays video *inside your terminal*. It hands decoding off to `ffmpeg`/`ffprobe`, reads back raw `rgb24` frames, and maps each frame to colored terminal cells as an ASCII glyph ramp, Unicode braille sub-pixels, or half-block sub-pixels, painting them on the alternate screen with 24-bit color and no flicker.
 
+## Show me!
+
+Let's start with what I think is the prettiest renderer
+
+### Half-Block renderer
+
+https://github.com/user-attachments/assets/14cd1e8e-d35f-4b21-b7ac-81e3b2499925
+
+### With colors (and subtitles)
+
+https://github.com/user-attachments/assets/a76d49bf-cf5f-4514-9684-1744e01c4a83
+
+### Braille renderer
+
+https://github.com/user-attachments/assets/0496d898-6095-45e8-8caa-a2f70f69c40e
+
+### ASCII renderer
+
+https://github.com/user-attachments/assets/79613bfc-3260-432c-b779-348ade69fa59
+
+
 ---
 
 ## Requirements
